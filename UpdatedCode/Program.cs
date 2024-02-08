@@ -44,7 +44,6 @@ for (int i = 0; i <= N; i++)
 {
 //Use Math.Round() to round variables to 2 decials
 Console.WriteLine($"|{i}\t|{Math.Round(t, 2)}\t|{Math.Round(a, 2)}\t|{Math.Round(v1, 2)}\t|{Math.Round(y, 2)}\t|");
-Console.WriteLine(v0);
 t += dt;
 v0 = v1;
 v1 += (a * dt);
